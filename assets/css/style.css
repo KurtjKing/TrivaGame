@@ -1,0 +1,135 @@
+body {
+    font-family: 'Lato', sans-serif;
+    display: inline-block;
+    background-color: aqua;
+    
+}
+
+#main-body {
+    border: 5px solid #000;
+    max-width: 1024px;
+    width: 100%;
+    margin: 35px auto auto 100px;
+    padding: 35px;
+    background-color: #fff;;
+    
+}
+
+h1 {
+    font-size: 65px;
+    text-align: center;
+    font-weight: 400;
+    color: #000000;
+    text-shadow: 2px 2px #000;
+    letter-spacing: 7px;
+    
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+h3 {
+    padding-left: 45px;
+    font-size: 17px;
+    
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: bold;
+}
+#sub-heading{
+    line-height: 50px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;
+    
+}
+
+.container {
+    margin-top: 25px;
+    padding: 5 5 5 5;
+}
+
+
+#tick-tock {
+   /* border: 5px solid pink;*/
+    margin-left: 25px;
+    margin-top: 50px;
+    padding-top: 15px;
+    font-size: 20px;
+    letter-spacing: 2px;
+   
+    
+}
+
+
+#cat {
+    height: 200px;
+    width: auto;
+    margin-top: 35px;
+    /*border: 5px solid purple;*/
+    
+}
+
+#trivia-question {
+    /*border: 5px solid black;*/
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    
+}
+
+#question-display {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#choices {
+    padding: 15px;
+}
+
+.btn,  #submit-btn {
+   background-color: #FFF; 
+    border: none;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#quiz-area {
+    padding-top: 30px;
+    padding-left: 50px;
+}
+#startGame {
+    font-size: 40px;
+}
+#submit-btn{
+    font-size: 30px;
+    border: 3px solid #000000;
+    border-radius: 3px;
+    color: #000000;
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: 25px;
+    
+}
+
+
+.btn:hover, .btn:focus,  #submit-btn:hover,  #submit-btn:focus {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000; 
+}
+
+
+
+#countdown {
+    font-size: 95px;
+}

@@ -55,25 +55,8 @@ h4 {
 }
 
 
-#tick-tock {
-   /* border: 5px solid pink;*/
-    margin-left: 25px;
-    margin-top: 50px;
-    padding-top: 15px;
-    font-size: 20px;
-    letter-spacing: 2px;
-   
-    
-}
 
 
-#cat {
-    height: 200px;
-    width: auto;
-    margin-top: 35px;
-    /*border: 5px solid purple;*/
-    
-}
 
 #trivia-question {
     /*border: 5px solid black;*/

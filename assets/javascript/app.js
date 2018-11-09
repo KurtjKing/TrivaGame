@@ -110,24 +110,7 @@ window.onload = function() {
       });
   
   
-      //Question 4
-       $.each($("input[name='question-3']:checked"), function() {  // checks the radio btn input if checked
-        if ($(this).val() === questionArray[3].correctAnswer) { // checks question 3 for correct answer
-          correct++; // adds to correct answer
-        } else {
-          incorrect++; // add to incorrect answer
-        }
-      });
-  
-  
-      //Question 5
-       $.each($("input[name='question-4']:checked"), function() {  // checks the radio btn input if checked
-        if ($(this).val() === questionArray[4].correctAnswer) { // checks question 4 for correct answer
-          correct++; // adds to correct answer
-        } else {
-          incorrect++; // add to incorrect answer
-        }
-      });
+
   
     }
   
